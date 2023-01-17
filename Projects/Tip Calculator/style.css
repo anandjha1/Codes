@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.main-body{
+  margin: 1rem auto;
+  padding: 5px;
+}
