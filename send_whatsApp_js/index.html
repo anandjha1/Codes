@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send WhatsApp Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HTML form to input message and phone numbers -->
+    <form id="whatsapp-form">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"> </textarea><br>
+
+        <label for="numbers">Phone Numbers (comma-separated):</label>
+        <input type="text" id="numbers" name="numbers"><br>
+
+        <input type="submit" value="Send">
+    </form>
+    <div class="status">
+        <h1>Totat Sent : <span id="sentCount"></span></h1>
+        <ul id="list"></ul>
+    </div>
+
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
